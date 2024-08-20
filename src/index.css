@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fontType{
+  font-family: 'Philosopher', sans-serif!important
+}

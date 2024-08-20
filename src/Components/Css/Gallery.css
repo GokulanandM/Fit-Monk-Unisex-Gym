@@ -1,0 +1,121 @@
+.about{
+    color: #4e4e85;
+  }
+  @media screen and (min-width: 425px) and (max-width: 1023px){
+    .about{
+      padding-top: 40%!important;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 424px){
+    .about{
+      padding-top: 50%!important;
+    }
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .button {
+    background-color: #4e4e85;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1a1a1a;
+  }
+  
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .single-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .single-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .single-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  /*  */
+  .detail-box {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .detail-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  /* Gallery.css */
+
+.custom-image-gallery .image-gallery-image {
+    height: 300px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    width: 100%; /* Ensure the width scales proportionally */
+  }
+  @media screen and (min-width:320px) and (max-width:424px) {
+    .contact_text{
+        padding-top: 40%!important;
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+    .contact_text{
+        padding-top: 20%!important;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:424px) {
+  .medal{
+   height: 20vh!important;
+  }
+  
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+  .medal{
+    height: 20vh!important;
+  }
+  
+}

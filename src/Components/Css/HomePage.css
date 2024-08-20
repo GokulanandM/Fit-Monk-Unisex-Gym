@@ -1,0 +1,219 @@
+/* Hero Section */
+.hero-section {
+    /* background-image: url(''); */
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif!important
+  }
+
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 56px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .hero-subtitle {
+    font-size: 22px;
+    margin-top: 10px;
+    animation: fadeIn 2s ease-in-out 0.5s;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .hero-buttons {
+    margin-top: 30px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .hero-button {
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .features-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .features-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .feature-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-image {
+    width: 100%;
+    border-radius: 10px;
+    /* height: 40vh; */
+  }
+  
+  .feature-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .feature-description {
+    color: #555;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    background-color: #333;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .cta-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .cta-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .cta-buttons {
+    margin-top: 20px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  .cta-button {
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif!important
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Testimonials Section */
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.testimonials-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.testimonials-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.testimonial-card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Philosopher', sans-serif!important
+}
+.testimonial-card:hover{
+  transform: translateY(-10px);
+}
+.testimonial-text {
+  font-size: 16px;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+/* Blog Highlights Section */
+.blog-highlights-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-highlights-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-highlights-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 10px;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: 'Philosopher', sans-serif!important
+}
+
+.blog-excerpt {
+  color: #555;
+  font-family: 'Philosopher', sans-serif!important
+}
